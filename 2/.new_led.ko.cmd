@@ -1,0 +1,1 @@
+savedcmd_/home/driver/Lang/linux_kernel_driver/4/new_led.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/driver/Lang/linux_kernel_driver/4/new_led.ko /home/driver/Lang/linux_kernel_driver/4/new_led.o /home/driver/Lang/linux_kernel_driver/4/new_led.mod.o;  true

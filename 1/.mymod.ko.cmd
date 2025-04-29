@@ -1,0 +1,1 @@
+savedcmd_/home/driver/Lang/linux_kernel_driver/1/mymod.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/driver/Lang/linux_kernel_driver/1/mymod.ko /home/driver/Lang/linux_kernel_driver/1/mymod.o /home/driver/Lang/linux_kernel_driver/1/mymod.mod.o;  true

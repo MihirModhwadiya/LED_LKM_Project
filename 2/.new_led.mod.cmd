@@ -1,0 +1,1 @@
+savedcmd_/home/driver/Lang/linux_kernel_driver/4/new_led.mod := printf '%s\n'   new_led.o | awk '!x[$$0]++ { print("/home/driver/Lang/linux_kernel_driver/4/"$$0) }' > /home/driver/Lang/linux_kernel_driver/4/new_led.mod

@@ -1,0 +1,31 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2835";
+
+    fragment@0 {
+        target = <&gpio>;
+
+        __overlay__ {
+            drvled_pins: drvled_pins {
+                brcm,pins = <17>; // Change GPIO if needed
+                brcm,function = <1>; // 1 = output
+                brcm,pull = <0>; // No pull-up/down
+            };
+        };
+    };
+
+    fragment@1 {
+        target = <&leds>;
+
+        __overlay__ {
+            drvled: drvled {
+                label = "drvled";
+                gpios = <&gpio 17 0>; // GPIO 17, active high
+                linux,default-trigger = "none";
+            };
+        };
+    };
+};
+

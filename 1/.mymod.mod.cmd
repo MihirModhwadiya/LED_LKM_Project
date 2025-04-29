@@ -1,0 +1,1 @@
+savedcmd_/home/driver/Lang/linux_kernel_driver/1/mymod.mod := printf '%s\n'   mymod.o | awk '!x[$$0]++ { print("/home/driver/Lang/linux_kernel_driver/1/"$$0) }' > /home/driver/Lang/linux_kernel_driver/1/mymod.mod

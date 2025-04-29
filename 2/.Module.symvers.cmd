@@ -1,0 +1,1 @@
+savedcmd_/home/driver/Lang/linux_kernel_driver/4/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/driver/Lang/linux_kernel_driver/4/Module.symvers -T /home/driver/Lang/linux_kernel_driver/4/modules.order -i Module.symvers -e 
